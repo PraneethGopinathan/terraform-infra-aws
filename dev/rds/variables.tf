@@ -1,0 +1,11 @@
+variable "private_1_id" {}
+variable "private_2_id" {}
+variable "allocated_storage" {}
+variable "identifier" {}
+variable "engine" {}
+variable "engine_version" {}
+variable "instance_class" {}
+variable "db_name" {}
+variable "username" {}
+variable "parameter_name" {}
+variable "parameter_family" {}
