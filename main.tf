@@ -50,3 +50,11 @@ module "rds" {
   parameter_name    = var.rds_parameter_name
   parameter_family  = var.rds_parameter_family
 }
+
+module "helm-repos" {
+  source = "./helm-repos"
+}
+
+module "iam" {
+  source = "./iam"
+}
