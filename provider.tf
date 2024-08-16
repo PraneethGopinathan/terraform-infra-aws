@@ -21,3 +21,9 @@ provider "aws" {
   region  = var.region
   profile = "terraform" # Use your corresponding profile
 }
+
+provider "helm" {
+  kubernetes {
+    config_path = "~/.kube/config"
+  }
+}
